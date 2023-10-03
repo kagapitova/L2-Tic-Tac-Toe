@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+<h1 class="game__header">Tic Tac Toe</h1>
+<div class="container">
+    <div class="main__container">
+        <h2><span id="game__result">Game in Progress</span></h2>
+        <div class="the-row border-btm">
+            <div class="the-col border-rt"></div>
+            <div class="the-col border-rt"></div>
+            <div class="the-col"></div>
+        </div>
+        <div class="the-row border-btm">
+            <div class="the-col border-rt"></div>
+            <div class="the-col border-rt"></div>
+            <div class="the-col"></div>
+        </div>
+        <div class="the-row">
+            <div class="the-col border-rt"></div>
+            <div class="the-col border-rt"></div>
+            <div class="the-col"></div>
+        </div>
+    </div>
+    <div class="aside__container">
+        <h2 class="options__title">Options</h2>
+        <div class="center-div">
+            <div class="flex-option">
+                <h2 class="option__text">Play with Program:</h2>
+                <label class="switch">
+                    <input type="checkbox" checked="true">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="flex-option">
+                <h2 class="option__text">Player 1 is X:</h2>
+                <label class="switch">
+                    <input type="checkbox" checked="true">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="flex-option">
+                <h2 class="option__text">X plays first:</h2>
+                <label class="switch">
+                    <input type="checkbox" checked="true">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="all-btn-row">
+    <button class="start__btn">Reset & Start</button>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
