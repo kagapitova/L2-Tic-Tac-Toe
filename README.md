@@ -13,4 +13,4 @@ https://kagapitova.github.io/L2-Tic-Tac-Toe/src/
 - `JS`.
 
 ## deadline - 11.10.2023 
-## ready - 03.10.2023
+## ready - 06.10.2023
