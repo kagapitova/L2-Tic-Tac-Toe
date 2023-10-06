@@ -79,7 +79,8 @@ h2 {
     font-size: 30px;
 }
 
-.start__btn {
+.start__btn,.save__btn,.getSave__btn {
+    margin-right: 15px;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -101,7 +102,7 @@ h2 {
             0 0 80px #0fa;
 }
 
-.start__btn:hover {
+.start__btn:hover,.save__btn:hover,.getSave__btn:hover {
     cursor: pointer;
 }
 
