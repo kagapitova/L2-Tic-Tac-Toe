@@ -218,8 +218,7 @@ function setSavedGame() {
 				statments.turn++;
 			}
 		});
-		console.log(statments);
-		gameStart(true); // не продолжает играть надо пофикситьб  возможно проблема связана с предыдущей проблемой
+		gameStart(true);
 	}
 }
 
